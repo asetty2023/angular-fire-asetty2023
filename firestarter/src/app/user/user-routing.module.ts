@@ -1,10 +1,10 @@
-import { Component, NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
 import { LoginPageComponent } from './login-page/login-page.component';
 
+
 const routes: Routes = [
-  {path: '', component: LoginPageComponent},
-  {path: 'login', loadChildren : () => import('./user.module').then(m => m.UserModule)}
+  { path: '', component: LoginPageComponent }
 ];
 
 @NgModule({
