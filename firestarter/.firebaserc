@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "firestarter-c360e": {
+      "hosting": {
+        "firestarter": [
+          "firestarter-c360e"
+        ]
+      }
+    }
+  }
+}
