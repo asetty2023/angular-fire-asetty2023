@@ -6,6 +6,13 @@
           "firestarter-c360e"
         ]
       }
+    },
+    "firestarter-e228a": {
+      "hosting": {
+        "firestarter": [
+          "firestarter-e228a"
+        ]
+      }
     }
   }
 }

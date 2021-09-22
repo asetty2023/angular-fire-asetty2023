@@ -5,12 +5,14 @@
 export const environment = {
   production: false,
   firebase : {
-    apiKey: "AIzaSyCkDUJfk5wlLm01kMbSlEZjaK_amiRaPhM",
-    authDomain: "firestarter-c360e.firebaseapp.com",
-    projectId: "firestarter-c360e",
-    storageBucket: "firestarter-c360e.appspot.com",
-    messagingSenderId: "542785721701",
-    appId: "1:542785721701:web:09a7d2e76cae33157ebd8c"
+    apiKey: "AIzaSyCgtV6G3APqPltYlx_T3S6CQdF54mzznU0",
+    authDomain: "firestarter-e228a.firebaseapp.com",
+    projectId: "firestarter-e228a",
+    storageBucket: "firestarter-e228a.appspot.com",
+    messagingSenderId: "313410374657",
+    appId: "1:313410374657:web:0ed2fee48e88ccd6db8400",
+    measurementId: "G-99K5QN5LPR"
+  
   }
 };
 
