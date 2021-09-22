@@ -10,7 +10,19 @@ import { HomePageComponent } from './home-page/home-page.component';
 
 import { environment } from 'src/environments/environment';
 
-import { AngularFireModule } from '@angular/fire'
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AngularFireStorageModule } from '@angular/fire/compat/storage';
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCkDUJfk5wlLm01kMbSlEZjaK_amiRaPhM",
+  authDomain: "firestarter-c360e.firebaseapp.com",
+  projectId: "firestarter-c360e",
+  storageBucket: "firestarter-c360e.appspot.com",
+  messagingSenderId: "542785721701",
+  appId: "1:542785721701:web:09a7d2e76cae33157ebd8c"
+};
 
 @NgModule({
   declarations: [
@@ -22,7 +34,10 @@ import { AngularFireModule } from '@angular/fire'
     BrowserModule,
     BrowserAnimationsModule,
     SharedModule,
-    AngularFireModule.initializeApp(environment.firebase)
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule, // firestore
+    AngularFireAuthModule, // auth
+    AngularFireStorageModule // storage
   ],
   providers: [],
   bootstrap: [AppComponent]
