@@ -15,10 +15,6 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomePageComponent
-  ],
   imports: [
     AppRoutingModule,
     BrowserModule,
@@ -28,6 +24,11 @@ import { AngularFireAuthModule } from '@angular/fire/compat/auth';
     AngularFirestoreModule,
     AngularFireAuthModule,
   ],
+  declarations: [
+    AppComponent,
+    HomePageComponent
+  ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
