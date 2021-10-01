@@ -27,5 +27,6 @@
       >
         <mat-card [ngClass]="task.label"> {{ task.description }} </mat-card>
       </div>
+      <app-delete-button (delete)="handleDelete()"></app-delete-button>
     </div>
   </mat-card>
